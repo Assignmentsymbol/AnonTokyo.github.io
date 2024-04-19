@@ -7,7 +7,7 @@ Vector Product: take the matrix as a collection of vectors, multiply it with a c
 then sum every row as a 1 element row.
 Example: n*3 Matrix * a 3D vector in a column that look like 1*3 Matrix. Rotate the vector for better visual.
 
-Product/mul: Dont rotate, make it a cube.
+Product/mul: Rotate the left matrix for cube calculation, make it a cube.
 
 Add/sub:-
 
