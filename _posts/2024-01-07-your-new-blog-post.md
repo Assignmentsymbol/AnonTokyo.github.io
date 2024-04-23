@@ -1,7 +1,6 @@
-## This is my first blog post
+## A post that should be fixed on the top!!! But donnot how to achieve yet x)
 
-crychic wbb...
-
+We will have some debugging tips tonight i guess
 
  ```tsql
  SELECT *
