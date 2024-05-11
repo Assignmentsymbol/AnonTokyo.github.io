@@ -1,4 +1,4 @@
-## Linear Algebra Basic Concepts and Technics
+## Linear Algebra Basic Concepts/Technics
 ### Group theory 
 Insertion:[title](https://www.example.com)
 1. Single Operation properties:
