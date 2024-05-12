@@ -14,15 +14,15 @@ Insertion:[title](https://www.example.com)
 3. Conclusion: A __Field__ is **Add & Mul with both AIE and Distributivity from Mul to Add. Note that 乘法0元不要求有逆** 
 
 
-### Terminology of LA
-#### Important notations:
+## Terminology of LA
+### Important notations:
 - $A_{ij}$ = $(a_{ij})$; Specially: $f(A)_{ij}$ = Bij where B = f(A).
 - A下标n, n属于K.表示K阶方阵.
 - diag(a,a): 2阶主对角线矩阵，每个元素为a. 通常也用来表示复平面上的实数.
 - $\frac {1}{a^2+b^2} *$ *to be fullfilled*
 - real part/**complex part**: Re(z),Im(z).实部虚部函数
 
-#### Basic concepts && Important denotations/names:  
+### Basic concepts && Important denotations/names:  
 - Entry:element~stuff collected in a matrix.//元素 
 - Vector:1*2 matrix //向量的矩阵表示,
   - Relevently: 1\*1 matrix took as a scalar/constant.//
@@ -32,14 +32,15 @@ Insertion:[title](https://www.example.com)
   - m,n 通常用作最大row和column.
 - row vector & column vector. trivial.
 - Transposed: 转置  
-- Square/Quadratic: 方阵  
+- Square/Quadratic: 方阵
+- **Rank & Singularity**: 满秩==(行列式!=0)==regular==non-singular==非退化.否则称为: 非满秩、退化、singular、行列式为0的。
+  **在矩阵乘法中，积退化当且仅当因数矩阵至少有一个退化。
 - Symmatric: 对称.  
 - Sparse: One ***denotes*** a matrix with mostly zero entries as a sparse matrix. 稀疏矩阵，0多.  
 - Modeling terminologies:  
   - *structurally symmetric* but maybe not *numerically symmetric* ?  
   - *Transition matrix* 转移矩阵，用于描述概率系统的变化。  
 - diagonal:对角线  
-- diagonal matr: ~
 - Diagonal Dominant Matrices: 对角线优势矩阵，对角线上的元素大于其它所有元素的绝对值之和
 - **positive define**: 正定矩阵，A, 对于任何向量x, x^TAx>0.
    - theorem：对角线优势且镜像的矩阵是正定的。
