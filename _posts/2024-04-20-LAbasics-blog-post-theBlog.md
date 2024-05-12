@@ -41,7 +41,7 @@ Insertion:[title](https://www.example.com)
 - diagonal:对角线  
 - diagonal matr: ~
 - Diagonal Dominant Matrices: 对角线优势矩阵，对角线上的元素大于其它所有元素的绝对值之和
-- positive define: 正定矩阵，A, 对于任何向量x, x^TAx>0.
+- **positive define**: 正定矩阵，A, 对于任何向量x, x^TAx>0.
    - theorem：对角线优势且镜像的矩阵是正定的。
 - conjugate transpose: denoted as $A^H$, 对于每一个元素，全取共轭。**共轭转置**
 - Hermitian Matrices: A = $A^H$.
@@ -90,7 +90,7 @@ rank of the extended coecient matrix. 这里的solution应该是只有一个？�
 
 #### Matrix Factorizations 矩阵分解，用于提高LES中的算法复用性。
 - LU Fac.:LU分解. 技术: **令L为下三角矩阵，并且主对角线元素均为1(这是一个很好的构造，但不是必须的)；U为上三角矩阵。** 算法大约是上到下，左到右计算。
-- LL^T Fac: 亦称为**Cholesky** Factorization.LL^T分解，对于**symmetric & diagonal domaint matrix可以使用更加简化的算法，在此特里中，对角线的元素恰为根号下原矩阵对角线对应元素的值。**
+- LL^T Fac: 亦称为**Cholesky** Factorization.LL^T分解，对于**symmetric & diagonal domaint matrix(=positive define正定)可以使用更加简化的算法，在此特里中，对角线的元素恰为根号下原矩阵对角线对应元素的值。**
 - The matrix A œ Rn◊n has a unique LU factorization if and only if A is **nonsingular**/regular/fair ranked. If A is singular, then the factorization may exist, but if so it is not unique
 
 #### Vector Space
