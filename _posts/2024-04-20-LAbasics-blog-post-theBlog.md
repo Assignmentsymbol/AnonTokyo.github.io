@@ -93,6 +93,7 @@ rank of the extended coecient matrix. 这里的solution应该是只有一个？�
 - LU Fac.:LU分解. 技术: **令L为下三角矩阵，并且主对角线元素均为1(这是一个很好的构造，但不是必须的)；U为上三角矩阵。** 算法大约是上到下，左到右计算。
 - LL^T Fac: 亦称为**Cholesky** Factorization.LL^T分解，对于**symmetric & diagonal domaint matrix(=positive define正定)可以使用更加简化的算法，在此特里中，对角线的元素恰为根号下原矩阵对角线对应元素的值。**
 - The matrix A œ Rn◊n has a unique LU factorization if and only if A is **nonsingular**/regular/fair ranked. If A is singular, then the factorization may exist, but if so it is not unique
+- **注意，分解完求解的时候应当从解L和中间量y开始，然后解U**
 
 #### Vector Space
 - to be fullfilled
