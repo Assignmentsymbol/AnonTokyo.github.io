@@ -1,6 +1,6 @@
 ## Linear Algebra Basic Concepts and Technics
 ### Group theory 
-Insertion:[title](https://www.example.com)
+
 1. Single Operation properties:
    - Group: "Ass+Ive+Ele" Integer addtion, Assoiciative+Inverse element+Identity element.  
        Assiciativity结合:2,3 swap allowed.允许后两项结合.       
@@ -98,7 +98,7 @@ rank of the extended coecient matrix. 这里的solution应该是只有一个？�
 #### Vector Space
 - to be fullfilled
 
-### Operatons
+### Operations
 - Addition, when need to be distict with other addtion, use *squeard "+" sign*.  
   - Abelian.   
 - scalar: 标量乘法.  
